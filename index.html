@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook Clone</title>
+    <!-- -------- Css Link --------- -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Fontawesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Swiper Css CDN -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+</head>
+
+<body>
+
+    <header id="header">
+        <div class="search-box">
+            <img src="img/Facebook.png" alt="">
+            <i class="fas fa-search" id="search-icon"></i>
+            <input type="text" class="search" placeholder="Search Facebook">
+        </div>
+
+        <div class="icons">
+            <a href="index.html"><i class="fa-solid fa-house active" title="Home"></i></a>
+            <a href="friends.html"><i class="fa-solid fa-user-group" title="Friends"></i></a>
+            <i class="fa-solid fa-users" title="Group"></i>
+            <p id="menu"><i class="fas fa-bars"></i></p>
+        </div>
+
+        <div class="account">
+            <a href="friends.html" class="btn">Find Friends</a>
+            <i class="fa-solid fa-bars" title="menu"></i>
+            <i class="fa-brands fa-facebook-messenger" title="Messenger"></i>
+            <i class="fa-solid fa-bell" title="Notifications"></i>
+            <img src="img/user.png" alt="user-img"  id="users" title="Account">
+        </div>
+    </header>
+
+     <!-- my account menu start -->
+      
+       <div class="my-ac"id="my-ac" >
+        <div class="box">
+              <div class="ac">
+                 <div class="a">
+                    <img src="img/user.png" alt="">
+                    <p>Ashish Maurya</p>
+                 </div>
+                 <div class="p">
+                    <div class="line"></div>
+                    <a href="#">See all profile</a>
+                 </div>
+              </div>
+             
+             <div class="item">
+                <i class="fa-solid fa-gear"></i>
+                 <p>Setting & privacy</p>
+             </div>
+             <div class="item">
+                <i class="fa-solid fa-circle-question"></i>
+                 <p>Help & support</p>
+             </div>
+             <div class="item">
+                <i class="fa-solid fa-moon"></i>
+                 <p>Display & accessibility</p>
+             </div>
+             <div class="item">
+                <i class="fa-solid fa-circle-exclamation"></i>
+                 <p>Give feedback</p>
+             </div>
+             <div class="item">
+                <i class="fa-solid fa-right-from-bracket"></i>
+                 <p>Log Out</p>
+             </div>
+
+        </div>
+       </div>
+     <!-- my account menu end -->
+
+    <!-- Menu bar -->
+    <div class="menu-bar active">
+        <div class="box">
+            <div class="icon">
+                <img src="img/user.png" alt="">
+                <p>Ashish Maurya</p>
+            </div>
+
+            <div class="icon">
+                <img src="img/friend.png" alt="">
+                <p>Friends</p>
+            </div>
+            <div class="icon">
+                <img src="img/card.png" alt="">
+                <p>Feeds</p>
+            </div>
+            <div class="icon">
+                <img src="img/group.png" alt="">
+                <p>Group</p>
+            </div>
+            <div class="icon">
+                <img src="img/facebook.png" alt="">
+                <p>Welcome</p>
+            </div>
+            <div class="icon">
+                <img src="img/marketplace.png" alt="">
+                <p>Marketplace</p>
+            </div>
+            <div class="icon">
+                <img src="img/live_video.png" alt="">
+                <p>Video</p>
+            </div>
+            <div class="icon">
+                <img src="img/watch.png" alt="">
+                <p>Memories</p>
+            </div>
+            <div class="icon">
+                <img src="img/saved.png" alt="">
+                <p>Saved</p>
+            </div>
+            <div class="icon">
+                <img src="img/flag.png" alt="">
+                <p>Pages</p>
+            </div>
+            <div class="icon">
+                <img src="img/event.png" alt="">
+                <p>Event</p>
+            </div>
+            <div class="icon">
+                <img src="img/signal.png" alt="">
+                <p>Add Center</p>
+            </div>
+            <div class="icon">
+                <img src="img/blood.png" alt="">
+                <p>Blood Donation</p>
+            </div>
+
+            <div class="icon">
+                <img src="img/messenger.png" alt="">
+                <p>Messenger</p>
+            </div>
+
+        </div>
+    </div>
+
+<!-- facebook stories and reel -->
+    <div class="main-container">
+        <div class="box-container">
+            <div class="box1">
+                <a href="#" class="active" id="storyBtn"><i class="fa-solid fa-book-open"></i>Stories</a>
+                <a href="#" id="reelBtn"><img src="img/reel.png" alt="">Reels</a>
+            </div>
+            <div class="box2" id="story">
+
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide my-story"><img src="img/story_1.png" alt="">
+                            <div class="pro-icon my-icon"><h1>+</h1></div>
+                             <div class="story-name name"><p>Create story</p></div>
+                        </div>
+                        <div class="swiper-slide"><img src="img/story_2.jpg" alt="">
+                            <div class="pro-icon"> <img src="img/profile_1.jpg" alt=""></div>
+                            <div class="story-name"><p>Ankita Patel</p></div>
+
+                        </div>
+                        <div class="swiper-slide"><img src="img/story_3.jpg" alt="">
+                            <div class="pro-icon"> <img src="img/profile_2.jpg" alt=""></div>
+                            <div class="story-name"><p>Sneha Maurya</p></div>
+
+                        </div>
+                        <div class="swiper-slide"><img src="img/story_4.png" alt="">
+                            <div class="pro-icon"> <img src="img/profile_3.jpg" alt=""></div>
+                            <div class="story-name"><p>Mamta Patel</p></div>
+
+                        </div>
+                        <div class="swiper-slide"><img src="img/story_5.jpg" alt="">
+                            <div class="pro-icon"> <img src="img/profile_4.png" alt=""></div>
+                            <div class="story-name"><p>Ragni Maurya</p></div>
+
+                        </div>
+                        <div class="swiper-slide"><img src="img/story_2.jpg" alt="">
+                            <div class="pro-icon"> <img src="img/profile_5.png" alt=""></div>
+                            <div class="story-name"><p>Sonam Maurya</p></div>
+
+                        </div>
+                        <div class="swiper-slide"><img src="img/story_3.jpg" alt="">
+                            <div class="pro-icon"> <img src="img/profile_6.png" alt=""></div>
+                            <div class="story-name"><p>Sneha patel</p></div>
+
+                        </div>
+                        <div class="swiper-slide"><img src="img/story_4.png" alt="">
+                            <div class="pro-icon"> <img src="img/profile_7.png" alt=""></div>
+                            <div class="story-name"><p>Ankita patel</p></div>
+
+                        </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                    
+                </div>
+            </div>
+
+               <div class="box3 box2" id="reel">
+
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <video src="video/reel1.mp4"></video>
+                            <div class="story-name"><p><i class="fas fa-play"></i> 1.M</p></div>
+
+                        </div>
+                        <div class="swiper-slide">
+                            <video src="video/reel2.mp4"></video>
+                            <div class="story-name"><p><i class="fas fa-play"></i>1.2M</p></div>
+
+                        </div>
+                        <div class="swiper-slide">
+                            <video src="video/reel3.mp4"></video>
+                            <div class="story-name"><p><i class="fas fa-play"></i>100K</p></div>
+
+                        </div>
+                        <div class="swiper-slide">
+                            <video src="video/reel4.mp4"></video>
+                            <div class="story-name"><p><i class="fas fa-play"></i>1.M</p></div>
+
+                        </div>
+                        <div class="swiper-slide">
+                            <video src="video/reel5.mp4"></video>
+                            <div class="story-name"><p><i class="fas fa-play"></i>2.M</p></div>
+
+                        </div>
+                        <div class="swiper-slide">
+                            <video src="video/reel6.mp4"></video>
+                            <div class="story-name"><p><i class="fas fa-play"></i>500K</p></div>
+
+                        </div>
+                        <div class="swiper-slide">
+                            <video src="video/reel7.mp4"></video>
+                            <div class="story-name"><p><i class="fas fa-play"></i>650K</p></div>
+
+                        </div>
+                        <div class="swiper-slide">
+                            <video src="video/reel8.mp4"></video>
+                            <div class="story-name"><p><i class="fas fa-play"></i>1.M</p></div>
+
+                        </div>
+                       
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+
+<!-- my profile start  -->
+            <div class="box4">
+                <div class="my-contact">
+                    <div class="my-profile">
+                        <img src="img/user.png" alt="">
+                        <input type="text" class="input" placeholder="What's on your mind,Ashish?">
+                    </div>
+                    <div class="line"></div>
+                    <div class="items">
+                        <a href=""> <img src="img/video.png" alt="">Live video</a>
+                        <a href=""> <img src="img/photo.png" alt="">Photo/video</a>
+                        <a href=""> <img src="img/mog.png" alt="">Feling/activity</a>
+                    </div>
+                </div>
+            </div>
+<!-- my profile end  -->
+   
+  <!-- create post start -->
+   
+    <div class="box5">
+         <div class="posts">
+            <div class="post-content">
+                <img src="img/user.png" alt="">
+                <div class="title">
+                     <p>Ashish Maurya</p>
+                     <p>July 25 at 11:18 AM</p>
+                    </div>
+                 <div class="icon">
+                    <i class="fas fa-ellipsis"></i>
+                </div>
+                
+            </div>
+             <div class="img">
+                <img src="img/ms.jpg" alt="">
+             </div>
+             <div class="lines"></div>
+             <div class="user-icons">
+                <a href=""><i class="fa-regular fa-thumbs-up"></i>Like</a>
+                <a href=""><i class="fa-regular fa-comment"></i>Comment</a>
+                <a href=""><i class="fa-solid fa-share"></i>Share</a>
+             </div>
+             <div class="lines"></div>
+
+              <div class="comment">
+                 <img src="img/user.png" alt="user img">
+                  <input type="text" class="input" placeholder="Write a comment...">
+              </div>
+
+         </div>
+         
+    </div>
+
+    <div class="box5">
+         <div class="posts">
+            <div class="post-content">
+                <img src="img/contact_4.jpg" alt="">
+                <div class="title">
+                     <p>Ankita patel</p>
+                     <p>July 26 at 09:18 PM</p>
+                    </div>
+                 <div class="icon">
+                    <i class="fas fa-ellipsis"></i>
+                </div>
+                
+            </div>
+             <div class="img">
+                <img src="img/am.jpg" alt="">
+             </div>
+             <div class="lines"></div>
+             <div class="user-icons">
+                <a href=""><i class="fa-regular fa-thumbs-up"></i>Like</a>
+                <a href=""><i class="fa-regular fa-comment"></i>Comment</a>
+                <a href=""><i class="fa-solid fa-share"></i>Share</a>
+             </div>
+             <div class="lines"></div>
+
+              <div class="comment">
+                 <img src="img/user.png" alt="user img">
+                  <input type="text" class="input" placeholder="Write a comment...">
+              </div>
+
+         </div>
+         
+    </div>
+  <!-- create post end -->
+
+
+        </div>
+
+
+
+    </div>
+
+    <!-- sidebar contact -->
+     <div class="main-contact">
+        <div class="contact-box">
+            <div class="contact">
+                <h2>Contacts</h2>
+                 <div class="icons">
+                    <i class="fas fa-video"></i>
+                    <i class="fas fa-search"></i>
+                    <i class="fa-solid fa-ellipsis"></i>
+                 </div>
+            </div>
+
+             <div class="contact-group">
+                <div class="title">
+                    <img src="img/contact_1.jpg" alt="">
+                    <p>Ragni Maurya</p>
+                </div>
+                <div class="title">
+                    <img src="img/contact_2.jpg" alt="">
+                    <p>Ramesh Kumar</p>
+                </div>
+                <div class="title">
+                    <img src="img/contact_3.jpg" alt="">
+                    <p>Ram Kumar</p>
+                </div>
+                <div class="title">
+                    <img src="img/contact_4.jpg" alt="">
+                    <p>Rahul Patel</p>
+                </div>
+                <div class="title">
+                    <img src="img/contact_5.jpg" alt="">
+                    <p>Shivam Maurya</p>
+                </div>
+                <div class="title">
+                    <img src="img/contact_2.jpg" alt="">
+                    <p>Aman Kumar</p>
+                </div>
+                <div class="title">
+                    <img src="img/contact_1.jpg" alt="">
+                    <p>Sneha Maurya</p>
+                </div>
+                <div class="title">
+                    <img src="img/contact_3.jpg" alt="">
+                    <p>Anjali Maurya</p>
+                </div>
+                <div class="title">
+                    <img src="img/contact_4.jpg" alt="">
+                    <p>Rahul Kumar Yadav</p>
+                </div>
+                <div class="title">
+                    <img src="img/contact_5.jpg" alt="">
+                    <p>Shyam Panday</p>
+                </div>
+                <div class="title">
+                    <img src="img/contact_1.jpg" alt="">
+                    <p>Ankita Patel</p>
+                </div>
+                <div class="title">
+                    <img src="img/contact_2.jpg" alt="">
+                    <p>Rajiv patel</p>
+                </div>
+                <div class="title">
+                    <img src="img/contact_3.jpg" alt="">
+                    <p>Ramesh Maurya</p>
+                </div>
+                <div class="title">
+                    <img src="img/contact_4.jpg" alt="">
+                    <p>Anil Kumar</p>
+                </div>
+             </div>
+        </div>
+     </div>
+
+
+
+
+
+     <!-- Swiper Js CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <!-- --Js Link --- -->
+    <script src="js.js"></script>
+</body>
+
+</html>
